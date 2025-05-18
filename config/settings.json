@@ -1,0 +1,15 @@
+{
+  "site": {
+    "baseUrl": "https://qiming.me",
+    "articlesPath": "/articles"
+  },
+  "n8n": {
+    "contentFormat": "markdown",
+    "defaultStatus": "draft"
+  },
+  "metadata": {
+    "defaultLanguage": "en",
+    "allowedStatuses": ["draft", "published", "archived"],
+    "requiredFields": ["title", "date", "slug"]
+  }
+} 
